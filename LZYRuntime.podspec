@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LZYRuntime'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LZYRuntime for mine description.'
+  s.summary          = '自己测试的runtime库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
