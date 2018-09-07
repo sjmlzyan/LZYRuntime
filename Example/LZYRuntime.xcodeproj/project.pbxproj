@@ -23,6 +23,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B034B1AB7911BCC4468C17ED /* Pods_LZYRuntime_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94F82F8FAFB226174CAA06E /* Pods_LZYRuntime_Example.framework */; };
+		D828561B214286D6007053C5 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D828561A214286D6007053C5 /* AddressBookUI.framework */; };
+		D828561D214286DE007053C5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D828561C214286DE007053C5 /* Accelerate.framework */; };
 		F8282FD068331CF01CF0E7B2 /* Pods_LZYRuntime_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816DA74AF34D8449AC907C57 /* Pods_LZYRuntime_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DD3C9A1F4B0ABB56ECA2183 /* Pods-LZYRuntime_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYRuntime_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZYRuntime_Example/Pods-LZYRuntime_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9DE919ADDEE081D4B6EBCEF2 /* Pods-LZYRuntime_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYRuntime_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZYRuntime_Example/Pods-LZYRuntime_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D828561A214286D6007053C5 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		D828561C214286DE007053C5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		F94F82F8FAFB226174CAA06E /* Pods_LZYRuntime_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZYRuntime_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D828561D214286DE007053C5 /* Accelerate.framework in Frameworks */,
+				D828561B214286D6007053C5 /* AddressBookUI.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +125,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D828561C214286DE007053C5 /* Accelerate.framework */,
+				D828561A214286D6007053C5 /* AddressBookUI.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
