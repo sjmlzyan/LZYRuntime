@@ -1,0 +1,16 @@
+PODS:
+  - LZYRuntime (0.1.0)
+
+DEPENDENCIES:
+  - LZYRuntime (from `../`)
+
+EXTERNAL SOURCES:
+  LZYRuntime:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LZYRuntime: c74781c482105bda0a443dd130572e530e8a630b
+
+PODFILE CHECKSUM: 63c32a2599bb3af086b43666a73c661b6b7d45f2
+
+COCOAPODS: 1.5.3
