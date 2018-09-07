@@ -10,5 +10,5 @@
 
 @interface CustomButton : UIView
 - (void)logButtonInfo;
-- (void)selectButtonWithIndex:(NSInteger)index;
+- (void)addLog;
 @end
