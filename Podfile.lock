@@ -1,0 +1,16 @@
+PODS:
+  - LZYRuntime (0.1.3)
+
+DEPENDENCIES:
+  - LZYRuntime
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LZYRuntime
+
+SPEC CHECKSUMS:
+  LZYRuntime: fafd124b2019cdc633777a391c413292a13fc7b4
+
+PODFILE CHECKSUM: 788081e40f3955d33974c1b94231f32232d74c40
+
+COCOAPODS: 1.5.3

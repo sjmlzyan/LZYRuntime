@@ -26,14 +26,6 @@
     NSLog(@"this is addLog");
 }
 
-- (void)anotherFunction {
-    NSLog(@"anotherFunction");
-}
-
-- (void)anotherFunctionTwo {
-    NSLog(@"anotherFunction");
-}
-
 
 
 @end
