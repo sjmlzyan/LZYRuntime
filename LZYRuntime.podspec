@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LZYRuntime'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = '自己测试的runtime库'
 
 # This description is used to generate tags and improve search results.
@@ -41,5 +41,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'MapKit', 'AddressBookUI', 'Accelerate'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'SWTableViewCell', '~> 0.3.7'
+  s.dependency 'SVPullToRefresh'
 
 end
