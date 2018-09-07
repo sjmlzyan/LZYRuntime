@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LZYRuntime'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = '自己测试的runtime库'
 
 # This description is used to generate tags and improve search results.
@@ -42,5 +42,20 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'SWTableViewCell', '~> 0.3.7'
   s.dependency 'SVPullToRefresh'
+  
+  # 向外提供的库 以下非系统自动配置，网络版本
+  #然后调用静态库的方法了.
+  #如果是framework的框架, 则需要将配置文件的
+  #s.vendored_libraries = “*/libXCLogStaticDemo.a"
+  #改为 (注意路径)
+  #s.vendored_frameworks = ‘*/XCLogStaticDemo.framework'
+  #s.vendored_libraries = "*/libCreateLibA.a"
+  #s.vendored_libraries = '/Pod/Classes/*.a'
+  #s.ios.vendored_libraries = 'libCreateLibA.a'
+  s.vendored_libraries = 'libCreateLibA.a'
+
+#spec.ios.vendored_library = 'libCreateLibA/libCreateLibA.a'
+  s.static_framework  =  true
+
 
 end
