@@ -22,4 +22,9 @@
     NSLog(@"this is customButton");
 }
 
+- (void)selectButtonWithIndex:(NSUInteger)index {
+    NSLog(@"index == %d", index);
+}
+
+
 @end
