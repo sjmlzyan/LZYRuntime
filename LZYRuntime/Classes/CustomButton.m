@@ -23,7 +23,7 @@
 }
 
 - (void)selectButtonWithIndex:(NSUInteger)index {
-    NSLog(@"index == %d", index);
+    NSLog(@"index == %lu", (unsigned long)index);
 }
 
 
