@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  #TODO: Add long description of the pod here.
+  这是自己测试的库，随便写点什么吧，需要长度大口大口京东方科技
                        DESC
 
   s.homepage         = 'https://github.com/sjmlzyan/LZYRuntime'
