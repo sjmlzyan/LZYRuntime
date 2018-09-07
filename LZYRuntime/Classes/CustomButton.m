@@ -22,8 +22,8 @@
     NSLog(@"this is customButton");
 }
 
-- (void)selectButtonWithIndex:(NSUInteger)index {
-    NSLog(@"index == %lu", (unsigned long)index);
+- (void)selectButtonWithIndex:(NSInteger)index {
+    NSLog(@"index == %ld", (long)index);
 }
 
 
