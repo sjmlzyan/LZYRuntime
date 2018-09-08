@@ -19,7 +19,7 @@
 		D82856162142026A007053C5 /* CustomButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D82856122142026A007053C5 /* CustomButton.h */; };
 		D82856172142026A007053C5 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D82856132142026A007053C5 /* CustomButton.m */; };
 		D828568721436BD1007053C5 /* CreateLibA.h in Headers */ = {isa = PBXBuildFile; fileRef = D828568621436BD1007053C5 /* CreateLibA.h */; };
-		D828568921436BE0007053C5 /* libCreateLibA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D828568821436BE0007053C5 /* libCreateLibA.a */; };
+		D828569021437C2A007053C5 /* libCreateLibA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D828568F21437C29007053C5 /* libCreateLibA.a */; };
 		E5C2B5903B9E227053D75B5D3270DBFC /* Pods-LZYRuntime_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DA7E202673484902F098072A50BF97 /* Pods-LZYRuntime_Example-dummy.m */; };
 		EAD4149AE34827F6138E1E82 /* libPods-LZYRuntime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47485F6608977B5A310A78E2 /* libPods-LZYRuntime.a */; };
 		F9FB6E827C79688AFAB0C9D1EA640C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -79,7 +79,7 @@
 		D82856122142026A007053C5 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
 		D82856132142026A007053C5 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
 		D828568621436BD1007053C5 /* CreateLibA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateLibA.h; sourceTree = "<group>"; };
-		D828568821436BE0007053C5 /* libCreateLibA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCreateLibA.a; sourceTree = "<group>"; };
+		D828568F21437C29007053C5 /* libCreateLibA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCreateLibA.a; sourceTree = "<group>"; };
 		F53E95A9E016C79954B7CE439D11510D /* Pods_LZYRuntime_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZYRuntime_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F747898B9D7B4FD6483627CD0D0BFD /* Pods_LZYRuntime_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZYRuntime_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F354F6B1C42DF1E68A214579EC1C72 /* Pods-LZYRuntime_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZYRuntime_Example-resources.sh"; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9FB6E827C79688AFAB0C9D1EA640C21 /* Foundation.framework in Frameworks */,
-				D828568921436BE0007053C5 /* libCreateLibA.a in Frameworks */,
+				D828569021437C2A007053C5 /* libCreateLibA.a in Frameworks */,
 				EAD4149AE34827F6138E1E82 /* libPods-LZYRuntime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +263,7 @@
 		D82856102142026A007053C5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D828568821436BE0007053C5 /* libCreateLibA.a */,
+				D828568F21437C29007053C5 /* libCreateLibA.a */,
 				D828568621436BD1007053C5 /* CreateLibA.h */,
 				D82856112142026A007053C5 /* .gitkeep */,
 				D82856122142026A007053C5 /* CustomButton.h */,
