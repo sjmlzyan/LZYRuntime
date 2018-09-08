@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LZYRuntime'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = '自己测试的runtime库'
 
 # This description is used to generate tags and improve search results.
@@ -31,8 +31,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LZYRuntime/Classes/**/*'
-  
+#系统默认给出来的
+#s.source_files = 'LZYRuntime/Classes/**/*'
+#网络上的
+  s.source_files = 'LZYRuntime/Classes/**/*.{c,h,hh,m,mm,cpp,a,pch}'
   # s.resource_bundles = {
   #   'LZYRuntime' => ['LZYRuntime/Assets/*.png']
   # }
@@ -50,12 +52,18 @@ Pod::Spec.new do |s|
   #改为 (注意路径)
   #s.vendored_frameworks = ‘*/XCLogStaticDemo.framework'
   #s.vendored_libraries = "*/libCreateLibA.a"
-  #s.vendored_libraries = '/Pod/Classes/*.a'
+  #s.vendored_libraries = 'Pod/Classes/*.a'
   #s.ios.vendored_libraries = 'libCreateLibA.a'
-  s.vendored_libraries = 'libCreateLibA.a'
+  #s.ios.vendored_libraries = '*/libCreateLibA.a'
+  #s.ios.vendored_libraries = '/Pod/Classes/libCreateLibA.a'
+  #s.ios.vendored_libraries = 'LTVoiceAssistant/Classes/libBDVoiceRecognitionClient.a',
 
 #spec.ios.vendored_library = 'libCreateLibA/libCreateLibA.a'
-  s.static_framework  =  true
+#s.static_framework  =  true
+  #s.vendored_libraries = 'Pod/Classes/**/*.a'
+  #s.vendored_libraries = 'Pod/Classes/Debug-iphoneos/include/libCrateLibA.a'
 
+#s.frameworks = 'UIKit', 'MapKit','libicucore.A'
+#s.ios.library = 'libCrateLibA.a'
 
 end
