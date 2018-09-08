@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LZYRuntime'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = '自己测试的runtime库'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'MapKit', 'AddressBookUI', 'Accelerate', 'QuartzCore'
+  s.frameworks = 'UIKit', 'MapKit', 'AddressBookUI'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'SWTableViewCell', '~> 0.3.7'
   s.dependency 'SVPullToRefresh'
